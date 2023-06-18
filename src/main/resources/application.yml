@@ -1,0 +1,11 @@
+server:
+  port: 8080 # This is the default port anyway, but you can change it here
+
+security:
+  jwt:
+    token:
+      secret-key: 5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
+      expire-length: 300000 # 5 minutes duration by default: 5 minutes * 60 seconds * 1000 miliseconds
+spring:
+  main:
+    allow-circular-references: true
